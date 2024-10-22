@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Head -->
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="invitaciones digitales para eventos">
+  <meta name="keywords" content="invitaciones, digitales, tarjetas, boda, invitación, interactivas, casamiento, save the date, agenda la fecha, ideas invitación, tarjetas de 15, tarjetas eventos, wedding, matrimonio, ideas tarjetas, rsvp, modelos de invitacion, página de boda, página web de casamiento">
+
+
+  <!-- Listado de css con version dinamica segun modificacion de archivo -->
+  <link rel="stylesheet" href="Style_Sheets/bootstrap.min.css?v=1702653004"><link rel="stylesheet" href="Style_Sheets/jquery.fancybox.min.css?v=1702653005"><link rel="stylesheet" href="Style_Sheets/styles.css?v=1722010838">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&amp;display=swap" rel="stylesheet">
+
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Title -->
+  <title> Nicole y Tommy - Agenda la Fecha</title>
+
+  <link rel="icon" type="image/x-icon" href="./Images/ring.png" type="image/png">
+ 
+
+</head>
+
+
+
+<body>
+  <!-- Audio -->    <section class="audio">
+  <div class="container">
+      <div class="row">
+          <div class="botonAudio-container">
+              <audio id="audioPrueba" loop="">
+                  <source src="ARTBAT.mp3" type="audio/mp3">
+                  ¡Ups! Tu navegador no soporta este archivo de audio.
+              </audio>
+              <div class="animation">
+                  <img id="btnPlay" src="Images/icono-musica_play.svg" alt="boton play" onclick="playAudio()" class="botonAudio vertical_shake">
+
+                  <img id="btnPausa" src="Images/icono-musica_pausa.svg" class="botonAudio pulse hidden" onclick="pauseAudio()" alt="boton pausa">
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+  <!-- Portada -->
+  <!-- Portada -->
+<section class="portada parallax-portada d-flex justify-content-center align-items-center">
+
+<!-- Logo central -->
+<div class="logo-portada fade-in-portada">
+  <img class="" src="Images/logo-portada2.png" alt="">
+  <div class="scroll-down"></div>
+</div>
+
+</section>
+
+  <!-- Cuenta Regresiva -->
+  <section class="cuenta-regresiva" id="cuenta-regresiva">
+<div class="container">
+  <!-- Contenedor de cuenta regresiva -->
+  <p class="m-3">Bienvenidos a nuestra boda</p>
+  <p id="reloj" class="descartar">¡Hoy es el gran día!</p>
+  <div class="row justify-content-center margenSup" id="reloj_number">
+    <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+      <p class="num_cuenta" id="dias">31</p>
+      <p class="text_cuenta">días</p>
+    </div>
+    <p class="num_cuenta">:</p>
+    <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+      <p class="num_cuenta" id="horas">14</p>
+      <p class="text_cuenta">hs</p>
+    </div>
+    <p class="num_cuenta">:</p>
+    <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+      <p class="num_cuenta" id="min">57</p>
+      <p class="text_cuenta">min</p>
+    </div>
+    <p class="num_cuenta">:</p>
+    <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+      <p class="num_cuenta" id="seg">40</p>
+      <p class="text_cuenta">seg</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Ceremonia y Fiesta -->
+<section class="ceremonia-fiesta mb-5">
+  <div class="container">
+    <div class="text-center">
+      <h4>Ceremonia</h4>
+      <p>
+        10 de Noviembre a las 12:30 hs <br> Salón <strong>Rut Haus</strong> <br>
+        Av. Int. Cantilo 1429, CABA <br>
+        Recibí debajo las indicaciones para llegar.        
+      </p>
+      <a target="_blank" href="https://maps.app.goo.gl/YsWMMXC2ZJVXg6e47" class="btn">LLEGAR A LA CEREMONIA</a>
+    </div>
+  </div>
+</section>
+
+<hr class="separador">
+
+<!-- Galeria -->
+<section class="galeria">
+<div class="container">
+  <h4 class="title-galery fade-in" style="opacity: 1;">NOSOTROS...</h4>
+  
+  <div class="row d-flex justify-content-center">
+    <div class="col-6 col-md-5 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+      <a href="Images/1.jpg" data-fancybox="images" data-caption="">
+        <img class="img-fluid" src="Images/1.jpg" alt="">
+      </a>
+    </div>
+
+    <!-- Impmrimo el bloque con la imagen -->
+    <div class="col-6 col-md-5 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+      <a href="Images/4.jpg" data-fancybox="images" data-caption="">
+        <img class="img-fluid" src="Images/4.jpg" alt="">
+      </a>
+    </div>
+
+  </div>
+
+  <div class= "row d-flex justify-content-center" >
+    
+      <!-- Impmrimo el bloque con la imagen -->
+        <div class="col-6 col-md-5 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+          <a href="Images/2.jpg" data-fancybox="images" data-caption="">
+            <img class="img-fluid" src="Images/2.jpg" alt="">
+          </a>
+        </div>
+    
+    
+      <!-- Impmrimo el bloque con la imagen -->
+        <div class="col-6 col-md-5 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+          <a href="Images/3.jpg" data-fancybox="images" data-caption="">
+            <img class="img-fluid" src="Images/3.jpg" alt="">
+          </a>
+        </div>
+  </div>
+</div>
+</section>
+
+  
+<!-- Dress Code -->
+<section class="dresscode">
+  <div class="container animated divDressCode fadeInUp">
+    <img src="Images/icono-dresscode.svg" alt="" class="icon">
+    <h4>DRESS CODE</h4>
+    <p>Vestimenta formal, elegante</p>
+  </div>
+</section>
+
+
+
+
+<!-- Confirmar Asistencia -->
+<section id="background" class="parallax-confirmar confirmar d-flex justify-content-center align-items-center">
+  <div class="container">
+    <!-- Contenedor de las instrucciones -->
+    <div class="animated divTitleAgenda fadeInUp" id="instrucciones-container">
+      <h4>CONFIRMACIÓN DE ASISTENCIA</h4>
+      <p>Esperamos que seas parte de esta gran celebración. ¡Confirmanos tu asistencia!</p>
+      <!-- Botón para mostrar el formulario -->
+      <a id="mostrar-formulario" class="btn" style="color: white;">Confirmar asistencia</a><br>
+    </div>
+
+    <!-- Agregar evento al calendario -->
+    <div class="animated divAgenda fadeInUp">
+      <img src="Images/icono-calendario.svg" alt="" class="icon iconCalendario fade-in" style="opacity: 1;">
+      <p>¡Agendá la fecha en tu calendario!</p>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          AGENDAR EVENTO
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a target="_blank" id="LinkCalendarGoogle" class="dropdown-item" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20241122T220000Z%2F20241123T025900Z&amp;text=Boda%20de%20Prueba&amp;text=Boda%20de%20Prueba"><img src="Images/icons8-calendario-de-google.svg" class="iconLink mr-3" alt="icono google">Google</a>
+          <a target="_blank" id="LinkCalendarApple" class="dropdown-item" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0AVERSION%3A2.0%0ABEGIN%3AVEVENT%0AURL%3AEvento%0ADTSTART%3A20241122T220000Z%0ADTEND%3A20241123T025900Z%0ASUMMARY%3ABoda%20de%20Prueba%0AEND%3AVEVENT%0AEND%3AVCALENDAR"><img src="Images/icons8-mac-os.svg" class="iconLink mr-3" alt="icono google">Apple</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contenedor del Formulario (superpuesto y centrado) -->
+<div id="formulario-overlay" style="display: none;">
+  <div id="formulario-container" style="position: relative;">
+    <!-- Botón de cierre -->
+    <button class="btn cerrar-btn" type="button" onclick="cerrarFormulario()"> X </button>
+    <!-- Formulario de Google Forms incrustado -->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6PAYY2rteoZwlLDt-5kBjQuL-akkjWkUdH9kSaBahU3ckjQ/viewform?embedded=true" width="640" height="1139" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+  </div>
+</div>
+
+
+<!-- Musica y hashtag -->
+<section class="musica-instagram mb-5">
+  <div class="container">
+    <div class="row">
+      <!-- Musica -->
+      <div class="col-md-6 columna iconoMusica">
+        <div class="animated divCanciones fadeInUp">
+          <img src="Images/icono-canciones.svg" alt="" class="icon iconMusic fade-in" style="width: 150px; height: 150px; opacity: 1;">
+          <br>
+          <h4>NUESTRA PLAYLIST</h4>
+          <p>¡Ayudanos sugiriendo las canciones que pensás que no pueden faltar en la fiesta!</p>
+          <a target="_blank" href="https://open.spotify.com/playlist/4TTGhV3A1pBCed4lLkv0Jc?si=CqLPdIENTK-WsJ3S1LBehg&pi=u-hli41gOeQQ6Y" class="btn">Sugerir canción</a>
+        </div>
+      </div>
+
+      <!-- Hashtag -->
+      <div class="col-md-6 columna iconoCeremonia">
+        <div class="animated divIntagram fadeInUp">
+          <img src="Images/icono-instagram.svg" alt="" class="icon iconInstagram fade-in" style="width: 150px; height: 150px; opacity: 1;">
+          <h4>#NicoleyTommy</h4>
+          <p> Sumate al evento usando este hashtag para compartir tus fotos y videos </p>
+          <a target="_blank" href="https://www.instagram.com/explore/tags/nicoleytommy/" class="btn">Ver en Instagram</a>
+        </div>  
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- Gracias -->
+<section class="gracias">
+  <div class="container animated divGracias fadeInUp">
+    <p>¡Gracias por acompañarnos en este momento tan importante!</p>
+  </div>
+</section>
+
+
+  <!-- Varaibles para JS desde config -->
+  <script>
+  // Cuenta regresiva
+  var fechaCuentaRegresiva = "11/10/2024 12:30:00";
+
+  // Datos para Agenda
+  var fechaInicioEvento = "11/10/2024 12:30:00";
+  var fechaFinEvento = "11/10/2024 23:59:00";
+  var tituloEvento = "Casamiento Nicole y Tommy";
+  </script>
+
+
+  <!-- Scripts Generales-->
+  <!-- Listado de js con version dinamica segun modificacion de archivo -->
+<script type="text/javascript" src="Scripts/jquery-3.5.1.slim.min.js?v=1702653026"></script><script type="text/javascript" src="Scripts/popper.min.js?v=1702653018"></script><script type="text/javascript" src="Scripts/bootstrap.min.js?v=1702653009"></script><script type="text/javascript" src="Scripts/parallax.min.js?v=1702653017"></script><script type="text/javascript" src="Scripts/jquery.fancybox.min.js?v=1702653009"></script><script type="text/javascript" src="Scripts/scripts.js?v=1702924041"></script>
+
+<script>
+  // Mostrar el formulario cuando se haga clic en "Confirmar asistencia"
+  document.getElementById('mostrar-formulario').addEventListener('click', function() {
+  // Aplica el blur al fondo
+  document.getElementById('background').classList.add('blur');
+  
+  // Muestra el formulario
+  document.getElementById('formulario-overlay').style.display = 'flex';
+  });
+
+</script>
+
+<script>
+  function cerrarFormulario() {
+    // Oculta el contenedor del formulario
+    document.getElementById("formulario-overlay").style.display = "none";
+
+    // Remover el blur del fondo
+    document.getElementById('background').classList.remove('blur');
+
+  }
+</script>
+
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpbh-mt'},{'server':'p3plmcpnl495804'},{'dcenter':'p3'},{'cp_id':'3446280'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src="https://img1.wsimg.com/traffic-Scripts/tccl.min.js"></script>
+
+</body></html>
